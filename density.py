@@ -5,9 +5,9 @@
 percent = list()
 i = 0
 while i < 7 :
-    chiz = input("input a percent : ")
-    if chiz != "Done" :
-        percent.append(float(chiz))
+    va1 = input("input a percent : ")
+    if va1 != "Done" :
+        percent.append(float(va1))
         i = i+1
     else:
         break
@@ -17,9 +17,9 @@ print(percent)
 mass = list()
 j = 0
 while j < 7 :
-    miz = input("input an atomic mass : ")
-    if miz != "Done" :
-        mass.append(float(miz))
+    va2 = input("input an atomic mass : ")
+    if va2 != "Done" :
+        mass.append(float(va2))
         j = j+1
     else:
         break
@@ -32,9 +32,9 @@ print(mass)
 density = list()
 j = 0
 while j < 7 :
-    miz = input("input a density : ")
-    if miz != "Done" :
-        density.append(float(miz))
+    va2 = input("input a density : ")
+    if va2 != "Done" :
+        density.append(float(va2))
         j = j+1
     else:
         break
