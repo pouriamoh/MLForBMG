@@ -14,7 +14,7 @@ print(percent)
 paul = list()
 j = 0
 while j < 7 :
-    va2 = input("input an pauling electro : ")
+    va2 = input("input a mixing enthalpy : ")
     if va2 != "Done" :
         paul.append(float(va2))
         j = j+1
