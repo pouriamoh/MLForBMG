@@ -2,9 +2,9 @@
 first = list()
 i = 0
 while i < 7 :
-    chiz = input("input first percent : ")
-    if chiz != "Done" :
-        first.append(float(chiz))
+    va1 = input("input first percent : ")
+    if va1 != "Done" :
+        first.append(float(va1))
         i = i+1
     else:
         break
@@ -14,9 +14,9 @@ print(percent)
 paul = list()
 j = 0
 while j < 7 :
-    miz = input("input an pauling electro : ")
-    if miz != "Done" :
-        paul.append(float(miz))
+    va2 = input("input an pauling electro : ")
+    if va2 != "Done" :
+        paul.append(float(va2))
         j = j+1
     else:
         break
